@@ -1,0 +1,355 @@
+[
+  {
+    "product_id": "1",
+    "product_title": "Dell XPS 15",
+    "product_image": "https://i.ibb.co.com/Rjpx34p/XPS-15-9530-c-1421.jpg",
+    "category": "computers",
+    "price": 1499.99,
+    "description": "A high-performance laptop with a stunning 15.6-inch display, perfect for professionals.",
+    "specification": [
+      "Intel Core i7 12th Gen Processor",
+      "16GB RAM",
+      "512GB SSD",
+      "NVIDIA GeForce RTX 3050"
+    ],
+    "availability": "In Stock",
+    "rating": 4.8
+  },
+  {
+    "product_id": "2",
+    "product_title": "iPhone 15 Pro",
+    "product_image": "https://i.ibb.co.com/TqtDN6h/i-Phone-15-Plus-2-5-1544.jpg",
+    "category": "phones",
+    "price": 1199.0,
+    "description": "The latest Apple flagship phone with an advanced camera system and A17 Bionic chip.",
+    "specification": [
+      "6.1-inch Super Retina XDR display",
+      "A17 Bionic chip",
+      "Triple-camera system",
+      "iOS 17"
+    ],
+    "availability": "Pre-order",
+    "rating": 4.9
+  },
+  {
+    "product_id": "3",
+    "product_title": "Samsung Galaxy Watch 6",
+    "product_image": "https://i.ibb.co.com/JFzLY6C/Galaxy-Watch6-Graphite-6125.jpg",
+    "category": "smart-watches",
+    "price": 299.99,
+    "description": "A stylish and powerful smartwatch with advanced health monitoring features.",
+    "specification": [
+      "1.5-inch AMOLED display",
+      "Heart rate monitoring",
+      "GPS and fitness tracking",
+      "Water-resistant up to 50m"
+    ],
+    "availability": "In Stock",
+    "rating": 4.7
+  },
+  {
+    "product_id": "4",
+    "product_title": "Anker PowerPort III Charger",
+    "product_image": "https://anker.com.bd/wp-content/uploads/2023/05/Deximpo-ANker-Bangladesh-Anker-PowerPort-III-20W-Cube-White-US-Plug.jpg",
+    "category": "chargers",
+    "price": 29.99,
+    "description": "A compact and fast USB-C charger compatible with multiple devices.",
+    "specification": [
+      "45W fast charging",
+      "USB-C Power Delivery",
+      "Compact design",
+      "Universal compatibility"
+    ],
+    "availability": "In Stock",
+    "rating": 4.5
+  },
+  {
+    "product_id": "5",
+    "product_title": "Xiaomi Power Bank 20,000mAh",
+    "product_image": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1645514982.69762476!400x400!85.png",
+    "category": "power-bank",
+    "price": 39.99,
+    "description": "A high-capacity power bank with fast charging support for all your devices.",
+    "specification": [
+      "20,000mAh capacity",
+      "Dual USB output",
+      "18W fast charging",
+      "Lightweight design"
+    ],
+    "availability": "In Stock",
+    "rating": 4.6
+  },
+  {
+    "product_id": "6",
+    "product_title": "Logitech MX Master 3S",
+    "product_image": "https://www.startech.com.bd/image/cache/catalog/mouse/logitech/mx-master-3s/logitech-mx-master-3s-01-500x500.jpg",
+    "category": "mouse",
+    "price": 99.99,
+    "description": "An advanced wireless mouse designed for productivity and precision.",
+    "specification": [
+      "Ergonomic design",
+      "Ultra-fast scrolling",
+      "Customizable buttons",
+      "Works on any surface"
+    ],
+    "availability": "In Stock",
+    "rating": 4.8
+  },
+  {
+    "product_id": "7",
+    "product_title": "Samsung T7 Portable SSD 1TB",
+    "product_image": "https://www.startech.com.bd/image/cache/catalog/ssd/samsung/2tb-t7/samsung-2tb-t7-usb-portable-ssd-500x500.jpg",
+    "category": "storage",
+    "price": 109.99,
+    "description": "Portable and lightweight SSD with ultra-fast transfer speeds.",
+    "specification": [
+      "1TB capacity",
+      "USB 3.2 Gen 2",
+      "Read speed up to 1050MB/s",
+      "Shock-resistant"
+    ],
+    "availability": "In Stock",
+    "rating": 4.9
+  },
+
+  {
+    "product_id": "8",
+    "product_title": "Microsoft Surface Laptop Studio",
+    "product_image": "https://www.startech.com.bd/image/cache/catalog/laptop/microsoft/surface-laptop-studio/surface-laptop-studio-01-500x500.jpg",
+    "category": "computers",
+    "price": 2499.99,
+    "description": "A versatile laptop with a touchscreen and Studio mode for creative professionals.",
+    "specification": [
+      "Intel Core i7 Processor",
+      "32GB RAM",
+      "1TB SSD",
+      "14.4-inch PixelSense Flow Display"
+    ],
+    "availability": "In Stock",
+    "rating": 4.7
+  },
+  {
+    "product_id": "9",
+    "product_title": "OnePlus 11",
+    "product_image": "https://image01.oneplus.net/media/202409/24/07643db2d15e1fb0284f9b0885cb2d76.png?x-amz-process=image/format,webp/quality,Q_80",
+    "category": "phones",
+    "price": 699.99,
+    "description": "A flagship phone with a sleek design, fast performance, and long battery life.",
+    "specification": [
+      "6.7-inch AMOLED display",
+      "Snapdragon 8 Gen 2",
+      "Triple-camera system",
+      "Android 13"
+    ],
+    "availability": "In Stock",
+    "rating": 4.8
+  },
+  {
+    "product_id": "10",
+    "product_title": "Apple AirPods Pro (2nd Gen)",
+    "product_image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MQD83_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1660803972366",
+    "category": "audio",
+    "price": 249.99,
+    "description": "Premium noise-canceling wireless earbuds with excellent sound quality.",
+    "specification": [
+      "Active Noise Cancellation",
+      "Transparency Mode",
+      "Adaptive EQ",
+      "MagSafe Charging Case"
+    ],
+    "availability": "In Stock",
+    "rating": 4.9
+  },
+  {
+    "product_id": "11",
+    "product_title": "HyperX Cloud II Wireless Headset",
+    "product_image": "https://www.techlandbd.com/image/catalog/HyperX/hyperx-cloud-ii-wireless-headset.jpg",
+    "category": "audio",
+    "price": 149.99,
+    "description": "A durable wireless gaming headset with superior sound and comfort.",
+    "specification": [
+      "53mm drivers",
+      "Virtual 7.1 Surround Sound",
+      "Detachable mic",
+      "30-hour battery life"
+    ],
+    "availability": "In Stock",
+    "rating": 4.8
+  },
+  {
+    "product_id": "12",
+    "product_title": "Dell XPS 15",
+    "product_image": "https://i.ibb.co.com/Rjpx34p/XPS-15-9530-c-1421.jpg",
+    "category": "computers",
+    "price": 1499.99,
+    "description": "A high-performance laptop with a stunning 15.6-inch display, perfect for professionals.",
+    "specification": [
+      "Intel Core i7 12th Gen Processor",
+      "16GB RAM",
+      "512GB SSD",
+      "NVIDIA GeForce RTX 3050"
+    ],
+    "availability": "In Stock",
+    "rating": 4.8
+  },
+  {
+    "product_id": "13",
+    "product_title": "iPhone 15 Pro",
+    "product_image": "https://i.ibb.co.com/TqtDN6h/i-Phone-15-Plus-2-5-1544.jpg",
+    "category": "phones",
+    "price": 1199.0,
+    "description": "The latest Apple flagship phone with an advanced camera system and A17 Bionic chip.",
+    "specification": [
+      "6.1-inch Super Retina XDR display",
+      "A17 Bionic chip",
+      "Triple-camera system",
+      "iOS 17"
+    ],
+    "availability": "Pre-order",
+    "rating": 4.9
+  },
+  {
+    "product_id": "14",
+    "product_title": "Samsung Galaxy Watch 6",
+    "product_image": "https://i.ibb.co.com/JFzLY6C/Galaxy-Watch6-Graphite-6125.jpg",
+    "category": "smart-watches",
+    "price": 299.99,
+    "description": "A stylish and powerful smartwatch with advanced health monitoring features.",
+    "specification": [
+      "1.5-inch AMOLED display",
+      "Heart rate monitoring",
+      "GPS and fitness tracking",
+      "Water-resistant up to 50m"
+    ],
+    "availability": "In Stock",
+    "rating": 4.7
+  },
+  {
+    "product_id": "15",
+    "product_title": "Anker PowerPort III Charger",
+    "product_image": "https://anker.com.bd/wp-content/uploads/2023/05/Deximpo-ANker-Bangladesh-Anker-PowerPort-III-20W-Cube-White-US-Plug.jpg",
+    "category": "chargers",
+    "price": 29.99,
+    "description": "A compact and fast USB-C charger compatible with multiple devices.",
+    "specification": [
+      "45W fast charging",
+      "USB-C Power Delivery",
+      "Compact design",
+      "Universal compatibility"
+    ],
+    "availability": "In Stock",
+    "rating": 4.5
+  },
+  {
+    "product_id": "16",
+    "product_title": "Xiaomi Power Bank 20,000mAh",
+    "product_image": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1645514982.69762476!400x400!85.png",
+    "category": "power-bank",
+    "price": 39.99,
+    "description": "A high-capacity power bank with fast charging support for all your devices.",
+    "specification": [
+      "20,000mAh capacity",
+      "Dual USB output",
+      "18W fast charging",
+      "Lightweight design"
+    ],
+    "availability": "In Stock",
+    "rating": 4.6
+  },
+  {
+    "product_id": "17",
+    "product_title": "Logitech MX Master 3S",
+    "product_image": "https://www.startech.com.bd/image/cache/catalog/mouse/logitech/mx-master-3s/logitech-mx-master-3s-01-500x500.jpg",
+    "category": "mouse",
+    "price": 99.99,
+    "description": "An advanced wireless mouse designed for productivity and precision.",
+    "specification": [
+      "Ergonomic design",
+      "Ultra-fast scrolling",
+      "Customizable buttons",
+      "Works on any surface"
+    ],
+    "availability": "In Stock",
+    "rating": 4.8
+  },
+  {
+    "product_id": "18",
+    "product_title": "Sony WH-1000XM5 Headphones",
+    "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/5318-55349.jpg",
+    "category": "audio",
+    "price": 399.99,
+    "description": "Industry-leading noise-canceling headphones with exceptional sound quality.",
+    "specification": [
+      "Noise cancellation",
+      "30-hour battery life",
+      "Touch controls",
+      "Adaptive sound control"
+    ],
+    "availability": "In Stock",
+    "rating": 4.9
+  },
+  {
+    "product_id": "19",
+    "product_title": "Google Pixel Tablet",
+    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7pPYHUyrmU3emPdNIR8uoH64LZEgJdCLdFg&s",
+    "category": "tablets",
+    "price": 649.99,
+    "description": "A versatile tablet with Google Assistant and home dock integration.",
+    "specification": [
+      "11-inch display",
+      "Tensor G2 processor",
+      "8GB RAM",
+      "128GB storage"
+    ],
+    "availability": "Pre-order",
+    "rating": 4.8
+  },
+  {
+    "product_id": "20",
+    "product_title": "ASUS ROG Zephyrus G14",
+    "product_image": "https://computermania-bd.b-cdn.net/wp-content/uploads/Asus-ROG-Zephyrus-9-1-600x450.jpg",
+    "category": "computers",
+    "price": 1899.99,
+    "description": "A compact gaming laptop with high-performance capabilities.",
+    "specification": [
+      "AMD Ryzen 9 Processor",
+      "32GB RAM",
+      "1TB SSD",
+      "NVIDIA GeForce RTX 4060"
+    ],
+    "availability": "In Stock",
+    "rating": 4.9
+  },
+  {
+    "product_id": "21",
+    "product_title": "Fitbit Charge 6",
+    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE8x2m-Qm2_vUZuRZ8vGuIRRmveGhimyCO4w&s",
+    "category": "fitness",
+    "price": 149.99,
+    "description": "A fitness tracker with advanced health and activity monitoring features.",
+    "specification": [
+      "Heart rate tracking",
+      "Sleep monitoring",
+      "GPS",
+      "10-day battery life"
+    ],
+    "availability": "In Stock",
+    "rating": 4.6
+  },
+  {
+    "product_id": "22",
+    "product_title": "LG C3 OLED TV 55-inch",
+    "product_image": "https://www.lg.com/content/dam/channel/wcms/in/images/tvs/oled55c3psa_atr_eail_in_c/gallery/OLED55C3PSA-DZ-02.jpg/_jcr_content/renditions/thum-1600x1062.jpeg",
+    "category": "televisions",
+    "price": 1599.99,
+    "description": "A premium 4K OLED TV with exceptional picture quality and gaming features.",
+    "specification": [
+      "4K UHD resolution",
+      "HDR support",
+      "120Hz refresh rate",
+      "Dolby Vision & Atmos"
+    ],
+    "availability": "In Stock",
+    "rating": 4.8
+  }
+]

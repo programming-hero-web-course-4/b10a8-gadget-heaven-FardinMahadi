@@ -3,7 +3,7 @@ import SortByCategory from "../SortByCategorys/SortByCategorys";
 
 const HomeExplore = () => {
   return (
-    <div className="grid grid-cols-4 px-10 ">
+    <div className="grid grid-cols-4 gap-5 p-10">
       <div>
         <SortByCategory />
       </div>
