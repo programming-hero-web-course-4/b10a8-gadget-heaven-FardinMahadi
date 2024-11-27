@@ -97,23 +97,6 @@
   },
   {
     "product_id": "7",
-    "product_title": "Samsung T7 Portable SSD 1TB",
-    "product_image": "https://www.startech.com.bd/image/cache/catalog/ssd/samsung/2tb-t7/samsung-2tb-t7-usb-portable-ssd-500x500.jpg",
-    "category": "Storage",
-    "price": 109.99,
-    "description": "Portable and lightweight SSD with ultra-fast transfer speeds.",
-    "specification": [
-      "1TB capacity",
-      "USB 3.2 Gen 2",
-      "Read speed up to 1050MB/s",
-      "Shock-resistant"
-    ],
-    "availability": "In Stock",
-    "rating": 4.9
-  },
-
-  {
-    "product_id": "8",
     "product_title": "Microsoft Surface Laptop Studio",
     "product_image": "https://www.startech.com.bd/image/cache/catalog/laptop/microsoft/surface-laptop-studio/surface-laptop-studio-01-500x500.jpg",
     "category": "Computers",
@@ -129,7 +112,7 @@
     "rating": 4.7
   },
   {
-    "product_id": "9",
+    "product_id": "8",
     "product_title": "OnePlus 11",
     "product_image": "https://image01.oneplus.net/media/202409/24/07643db2d15e1fb0284f9b0885cb2d76.png?x-amz-process=image/format,webp/quality,Q_80",
     "category": "Phones",
@@ -145,7 +128,7 @@
     "rating": 4.8
   },
   {
-    "product_id": "10",
+    "product_id": "9",
     "product_title": "Apple AirPods Pro (2nd Gen)",
     "product_image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MQD83_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1660803972366",
     "category": "Audio",
@@ -161,7 +144,7 @@
     "rating": 4.9
   },
   {
-    "product_id": "11",
+    "product_id": "10",
     "product_title": "HyperX Cloud II Wireless Headset",
     "product_image": "https://www.techlandbd.com/image/catalog/HyperX/hyperx-cloud-ii-wireless-headset.jpg",
     "category": "Audio",
@@ -177,7 +160,7 @@
     "rating": 4.8
   },
   {
-    "product_id": "12",
+    "product_id": "11",
     "product_title": "Dell XPS 15",
     "product_image": "https://i.ibb.co.com/Rjpx34p/XPS-15-9530-c-1421.jpg",
     "category": "Computers",
@@ -193,7 +176,7 @@
     "rating": 4.8
   },
   {
-    "product_id": "13",
+    "product_id": "12",
     "product_title": "iPhone 15 Pro",
     "product_image": "https://i.ibb.co.com/TqtDN6h/i-Phone-15-Plus-2-5-1544.jpg",
     "category": "Phones",
@@ -209,7 +192,7 @@
     "rating": 4.9
   },
   {
-    "product_id": "14",
+    "product_id": "13",
     "product_title": "Samsung Galaxy Watch 6",
     "product_image": "https://i.ibb.co.com/JFzLY6C/Galaxy-Watch6-Graphite-6125.jpg",
     "category": "Smart watches",
@@ -225,7 +208,7 @@
     "rating": 4.7
   },
   {
-    "product_id": "15",
+    "product_id": "14",
     "product_title": "Anker PowerPort III Charger",
     "product_image": "https://anker.com.bd/wp-content/uploads/2023/05/Deximpo-ANker-Bangladesh-Anker-PowerPort-III-20W-Cube-White-US-Plug.jpg",
     "category": "Chargers",
@@ -241,7 +224,7 @@
     "rating": 4.5
   },
   {
-    "product_id": "16",
+    "product_id": "15",
     "product_title": "Xiaomi Power Bank 20,000mAh",
     "product_image": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1645514982.69762476!400x400!85.png",
     "category": "Power bank",
@@ -257,7 +240,7 @@
     "rating": 4.6
   },
   {
-    "product_id": "17",
+    "product_id": "16",
     "product_title": "Logitech MX Master 3S",
     "product_image": "https://www.startech.com.bd/image/cache/catalog/mouse/logitech/mx-master-3s/logitech-mx-master-3s-01-500x500.jpg",
     "category": "Mouse",
@@ -273,7 +256,7 @@
     "rating": 4.8
   },
   {
-    "product_id": "18",
+    "product_id": "17",
     "product_title": "Sony WH-1000XM5 Headphones",
     "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/5318-55349.jpg",
     "category": "Audio",
@@ -289,23 +272,7 @@
     "rating": 4.9
   },
   {
-    "product_id": "19",
-    "product_title": "Google Pixel Tablet",
-    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7pPYHUyrmU3emPdNIR8uoH64LZEgJdCLdFg&s",
-    "category": "Tablets",
-    "price": 649.99,
-    "description": "A versatile tablet with Google Assistant and home dock integration.",
-    "specification": [
-      "11-inch display",
-      "Tensor G2 processor",
-      "8GB RAM",
-      "128GB storage"
-    ],
-    "availability": "Pre-order",
-    "rating": 4.8
-  },
-  {
-    "product_id": "20",
+    "product_id": "18",
     "product_title": "ASUS ROG Zephyrus G14",
     "product_image": "https://computermania-bd.b-cdn.net/wp-content/uploads/Asus-ROG-Zephyrus-9-1-600x450.jpg",
     "category": "Computers",
@@ -321,7 +288,7 @@
     "rating": 4.9
   },
   {
-    "product_id": "21",
+    "product_id": "19",
     "product_title": "Fitbit Charge 6",
     "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE8x2m-Qm2_vUZuRZ8vGuIRRmveGhimyCO4w&s",
     "category": "Fitness",
@@ -337,17 +304,52 @@
     "rating": 4.6
   },
   {
-    "product_id": "22",
-    "product_title": "LG C3 OLED TV 55-inch",
-    "product_image": "https://www.lg.com/content/dam/channel/wcms/in/images/tvs/oled55c3psa_atr_eail_in_c/gallery/OLED55C3PSA-DZ-02.jpg/_jcr_content/renditions/thum-1600x1062.jpeg",
-    "category": "TV",
-    "price": 1599.99,
-    "description": "A premium 4K OLED TV with exceptional picture quality and gaming features.",
+    "product_id": "20",
+    "product_title": "HP Spectre x360 14",
+    "product_image": "https://www.custommacbd.com/cdn/shop/files/Hp-Spectre-X360-i7-Custom-Mac-BD.png?v=1720507453",
+    "category": "Computers",
+    "price": 1699.99,
+    "description": "A convertible 2-in-1 laptop with a stunning 13.5-inch OLED display and powerful Intel Core i7 performance.",
     "specification": [
-      "4K UHD resolution",
-      "HDR support",
-      "120Hz refresh rate",
-      "Dolby Vision & Atmos"
+      "Intel Core i7 11th Gen Processor",
+      "16GB RAM",
+      "512GB SSD",
+      "Intel Iris Xe Graphics",
+      "13.5-inch OLED Touchscreen"
+    ],
+    "availability": "In Stock",
+    "rating": 4.7
+  },
+  {
+    "product_id": "21",
+    "product_title": "Lenovo ThinkPad X1 Carbon Gen 10",
+    "product_image": "https://p3-ofp.static.pub/ShareResource/na/products/thinkpad/400x300/lenovo-thinkpad-t16-black-01.png",
+    "category": "Computers",
+    "price": 2299.99,
+    "description": "A high-end business laptop with excellent build quality, performance, and battery life.",
+    "specification": [
+      "Intel Core i7 12th Gen Processor",
+      "16GB RAM",
+      "1TB SSD",
+      "14-inch WQXGA (2560x1600) Display",
+      "Intel Iris Xe Graphics"
+    ],
+    "availability": "In Stock",
+    "rating": 4.9
+  },
+  {
+    "product_id": "22",
+    "product_title": "Apple MacBook Air M2",
+    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4a4B4zdQy3M0jQ6m2RtqFSmXRu8vCWCgt3g&s",
+    "category": "Computers",
+    "price": 1299.99,
+    "description": "The lightest and most powerful MacBook Air yet, featuring the M2 chip for blazing-fast performance.",
+    "specification": [
+      "Apple M2 Chip",
+      "8GB Unified Memory",
+      "256GB SSD",
+      "13.6-inch Retina Display",
+      "16-hour battery life"
     ],
     "availability": "In Stock",
     "rating": 4.8

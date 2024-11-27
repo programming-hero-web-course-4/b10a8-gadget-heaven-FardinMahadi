@@ -9,7 +9,9 @@ const SortByCategorys = () => {
   useEffect(() => {
     fetch("/products.json")
       .then((res) => res.json())
-      .then((data) => setCategories(filterCategory(data)))
+      .then((data) => {
+        setCategories(filterCategory(data));
+      })
       .catch((error) => console.error("Error fetching products:", error));
   }, []);
 
@@ -30,8 +32,6 @@ const SortByCategorys = () => {
   const handleCategoryBtn = (category) => {
     setActiveCategory(category);
   };
-
-  const sortCategories = () => {};
 
   return (
     <div className="bg-gray-100 rounded-xl p-6 flex flex-col ">
