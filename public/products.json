@@ -3,7 +3,7 @@
     "product_id": "1",
     "product_title": "Dell XPS 15",
     "product_image": "https://i.ibb.co.com/Rjpx34p/XPS-15-9530-c-1421.jpg",
-    "category": "computers",
+    "category": "Computers",
     "price": 1499.99,
     "description": "A high-performance laptop with a stunning 15.6-inch display, perfect for professionals.",
     "specification": [
@@ -19,7 +19,7 @@
     "product_id": "2",
     "product_title": "iPhone 15 Pro",
     "product_image": "https://i.ibb.co.com/TqtDN6h/i-Phone-15-Plus-2-5-1544.jpg",
-    "category": "phones",
+    "category": "Phones",
     "price": 1199.0,
     "description": "The latest Apple flagship phone with an advanced camera system and A17 Bionic chip.",
     "specification": [
@@ -35,7 +35,7 @@
     "product_id": "3",
     "product_title": "Samsung Galaxy Watch 6",
     "product_image": "https://i.ibb.co.com/JFzLY6C/Galaxy-Watch6-Graphite-6125.jpg",
-    "category": "smart-watches",
+    "category": "Smart watches",
     "price": 299.99,
     "description": "A stylish and powerful smartwatch with advanced health monitoring features.",
     "specification": [
@@ -51,7 +51,7 @@
     "product_id": "4",
     "product_title": "Anker PowerPort III Charger",
     "product_image": "https://anker.com.bd/wp-content/uploads/2023/05/Deximpo-ANker-Bangladesh-Anker-PowerPort-III-20W-Cube-White-US-Plug.jpg",
-    "category": "chargers",
+    "category": "Chargers",
     "price": 29.99,
     "description": "A compact and fast USB-C charger compatible with multiple devices.",
     "specification": [
@@ -67,7 +67,7 @@
     "product_id": "5",
     "product_title": "Xiaomi Power Bank 20,000mAh",
     "product_image": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1645514982.69762476!400x400!85.png",
-    "category": "power-bank",
+    "category": "Power bank",
     "price": 39.99,
     "description": "A high-capacity power bank with fast charging support for all your devices.",
     "specification": [
@@ -83,7 +83,7 @@
     "product_id": "6",
     "product_title": "Logitech MX Master 3S",
     "product_image": "https://www.startech.com.bd/image/cache/catalog/mouse/logitech/mx-master-3s/logitech-mx-master-3s-01-500x500.jpg",
-    "category": "mouse",
+    "category": "Mouse",
     "price": 99.99,
     "description": "An advanced wireless mouse designed for productivity and precision.",
     "specification": [
@@ -99,7 +99,7 @@
     "product_id": "7",
     "product_title": "Samsung T7 Portable SSD 1TB",
     "product_image": "https://www.startech.com.bd/image/cache/catalog/ssd/samsung/2tb-t7/samsung-2tb-t7-usb-portable-ssd-500x500.jpg",
-    "category": "storage",
+    "category": "Storage",
     "price": 109.99,
     "description": "Portable and lightweight SSD with ultra-fast transfer speeds.",
     "specification": [
@@ -116,7 +116,7 @@
     "product_id": "8",
     "product_title": "Microsoft Surface Laptop Studio",
     "product_image": "https://www.startech.com.bd/image/cache/catalog/laptop/microsoft/surface-laptop-studio/surface-laptop-studio-01-500x500.jpg",
-    "category": "computers",
+    "category": "Computers",
     "price": 2499.99,
     "description": "A versatile laptop with a touchscreen and Studio mode for creative professionals.",
     "specification": [
@@ -132,7 +132,7 @@
     "product_id": "9",
     "product_title": "OnePlus 11",
     "product_image": "https://image01.oneplus.net/media/202409/24/07643db2d15e1fb0284f9b0885cb2d76.png?x-amz-process=image/format,webp/quality,Q_80",
-    "category": "phones",
+    "category": "Phones",
     "price": 699.99,
     "description": "A flagship phone with a sleek design, fast performance, and long battery life.",
     "specification": [
@@ -148,7 +148,7 @@
     "product_id": "10",
     "product_title": "Apple AirPods Pro (2nd Gen)",
     "product_image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MQD83_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1660803972366",
-    "category": "audio",
+    "category": "Audio",
     "price": 249.99,
     "description": "Premium noise-canceling wireless earbuds with excellent sound quality.",
     "specification": [
@@ -164,7 +164,7 @@
     "product_id": "11",
     "product_title": "HyperX Cloud II Wireless Headset",
     "product_image": "https://www.techlandbd.com/image/catalog/HyperX/hyperx-cloud-ii-wireless-headset.jpg",
-    "category": "audio",
+    "category": "Audio",
     "price": 149.99,
     "description": "A durable wireless gaming headset with superior sound and comfort.",
     "specification": [
@@ -180,7 +180,7 @@
     "product_id": "12",
     "product_title": "Dell XPS 15",
     "product_image": "https://i.ibb.co.com/Rjpx34p/XPS-15-9530-c-1421.jpg",
-    "category": "computers",
+    "category": "Computers",
     "price": 1499.99,
     "description": "A high-performance laptop with a stunning 15.6-inch display, perfect for professionals.",
     "specification": [
@@ -196,7 +196,7 @@
     "product_id": "13",
     "product_title": "iPhone 15 Pro",
     "product_image": "https://i.ibb.co.com/TqtDN6h/i-Phone-15-Plus-2-5-1544.jpg",
-    "category": "phones",
+    "category": "Phones",
     "price": 1199.0,
     "description": "The latest Apple flagship phone with an advanced camera system and A17 Bionic chip.",
     "specification": [
@@ -212,7 +212,7 @@
     "product_id": "14",
     "product_title": "Samsung Galaxy Watch 6",
     "product_image": "https://i.ibb.co.com/JFzLY6C/Galaxy-Watch6-Graphite-6125.jpg",
-    "category": "smart-watches",
+    "category": "Smart watches",
     "price": 299.99,
     "description": "A stylish and powerful smartwatch with advanced health monitoring features.",
     "specification": [
@@ -228,7 +228,7 @@
     "product_id": "15",
     "product_title": "Anker PowerPort III Charger",
     "product_image": "https://anker.com.bd/wp-content/uploads/2023/05/Deximpo-ANker-Bangladesh-Anker-PowerPort-III-20W-Cube-White-US-Plug.jpg",
-    "category": "chargers",
+    "category": "Chargers",
     "price": 29.99,
     "description": "A compact and fast USB-C charger compatible with multiple devices.",
     "specification": [
@@ -244,7 +244,7 @@
     "product_id": "16",
     "product_title": "Xiaomi Power Bank 20,000mAh",
     "product_image": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1645514982.69762476!400x400!85.png",
-    "category": "power-bank",
+    "category": "Power bank",
     "price": 39.99,
     "description": "A high-capacity power bank with fast charging support for all your devices.",
     "specification": [
@@ -260,7 +260,7 @@
     "product_id": "17",
     "product_title": "Logitech MX Master 3S",
     "product_image": "https://www.startech.com.bd/image/cache/catalog/mouse/logitech/mx-master-3s/logitech-mx-master-3s-01-500x500.jpg",
-    "category": "mouse",
+    "category": "Mouse",
     "price": 99.99,
     "description": "An advanced wireless mouse designed for productivity and precision.",
     "specification": [
@@ -276,7 +276,7 @@
     "product_id": "18",
     "product_title": "Sony WH-1000XM5 Headphones",
     "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/5318-55349.jpg",
-    "category": "audio",
+    "category": "Audio",
     "price": 399.99,
     "description": "Industry-leading noise-canceling headphones with exceptional sound quality.",
     "specification": [
@@ -292,7 +292,7 @@
     "product_id": "19",
     "product_title": "Google Pixel Tablet",
     "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7pPYHUyrmU3emPdNIR8uoH64LZEgJdCLdFg&s",
-    "category": "tablets",
+    "category": "Tablets",
     "price": 649.99,
     "description": "A versatile tablet with Google Assistant and home dock integration.",
     "specification": [
@@ -308,7 +308,7 @@
     "product_id": "20",
     "product_title": "ASUS ROG Zephyrus G14",
     "product_image": "https://computermania-bd.b-cdn.net/wp-content/uploads/Asus-ROG-Zephyrus-9-1-600x450.jpg",
-    "category": "computers",
+    "category": "Computers",
     "price": 1899.99,
     "description": "A compact gaming laptop with high-performance capabilities.",
     "specification": [
@@ -324,7 +324,7 @@
     "product_id": "21",
     "product_title": "Fitbit Charge 6",
     "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE8x2m-Qm2_vUZuRZ8vGuIRRmveGhimyCO4w&s",
-    "category": "fitness",
+    "category": "Fitness",
     "price": 149.99,
     "description": "A fitness tracker with advanced health and activity monitoring features.",
     "specification": [
@@ -340,7 +340,7 @@
     "product_id": "22",
     "product_title": "LG C3 OLED TV 55-inch",
     "product_image": "https://www.lg.com/content/dam/channel/wcms/in/images/tvs/oled55c3psa_atr_eail_in_c/gallery/OLED55C3PSA-DZ-02.jpg/_jcr_content/renditions/thum-1600x1062.jpeg",
-    "category": "televisions",
+    "category": "TV",
     "price": 1599.99,
     "description": "A premium 4K OLED TV with exceptional picture quality and gaming features.",
     "specification": [
