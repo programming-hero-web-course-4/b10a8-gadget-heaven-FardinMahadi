@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from "react";
-import StarRating from "../StarRating/StarRating";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { FaRegHeart } from "react-icons/fa";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
+import StarRating from "../StarRating/StarRating";
 
 const ProductDetails = ({ product }) => {
   const {
@@ -23,9 +26,15 @@ const ProductDetails = ({ product }) => {
     if (!isProductInCart) {
       cart.push({ product_title, price, product_image, description });
       localStorage.setItem("cart", JSON.stringify(cart));
-      alert(`${product_title} added to cart!`);
+      toast.success(`${product_title} added to cart!`, {
+        position: "top-center",
+        autoClose: 3000,
+      });
     } else {
-      alert(`${product_title} is already in the cart.`);
+      toast.info(`${product_title} is already in the cart.`, {
+        position: "top-center",
+        autoClose: 3000,
+      });
     }
   };
 
@@ -45,12 +54,32 @@ const ProductDetails = ({ product }) => {
       wishlist.push({ product_title, price, product_image, description });
       localStorage.setItem("wishlist", JSON.stringify(wishlist));
       setIsWishlisted(true);
-      alert(`${product_title} added to wishlist!`);
+      toast.success(`${product_title} added to wishlist!`, {
+        position: "top-center",
+        autoClose: 3000,
+      });
+    } else {
+      toast.info(`${product_title} is already in your wishlist.`, {
+        position: "top-center",
+        autoClose: 3000,
+      });
     }
   };
 
   return (
     <div className="flex flex-col sm:flex-row gap-5 w-auto py-5">
+      <ToastContainer
+        position="top-center"
+        autoClose={3000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        progressStyle={{ backgroundColor: "#9538E2" }}
+      />
       <img
         className="max-w-[400px] rounded-lg"
         src={product_image}

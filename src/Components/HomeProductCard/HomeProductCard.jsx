@@ -9,7 +9,7 @@ const HomeProductCard = ({ product }) => {
       <h3 className="text-black font-semibold mt-5">{product_title}</h3>
       <p className="text-gray-500 mt-2 text-sm mb-5">Price: {price}k</p>
       <NavLink
-        to={`/productdetails/${product_id}`} // Ensure this is generating the correct URL
+        to={`/productdetails/${product_id}`}
         className="text-sm rounded-full bg-white py-2 px-3 border-2 border-violet-600 text-violet-600 font-semibold hover:bg-violet-600 hover:text-white transition"
       >
         View Details

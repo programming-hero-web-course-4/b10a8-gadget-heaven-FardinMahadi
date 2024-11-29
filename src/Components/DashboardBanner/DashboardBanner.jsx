@@ -2,14 +2,14 @@ import React from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 
 const DashboardBanner = () => {
-  const navigate = useNavigate(); // Initialize navigate function
-  const location = useLocation(); // Get current location
+  const navigate = useNavigate();
+  const location = useLocation();
 
   const handleNavigation = (route) => {
-    navigate(route); // Navigate to the specified route
+    navigate(route);
   };
 
-  const isActive = (route) => location.pathname === route; // Check if the current route matches
+  const isActive = (route) => location.pathname === route;
 
   return (
     <div className="bg-[#9538E2] py-10 text-white text-center flex flex-col gap-4">

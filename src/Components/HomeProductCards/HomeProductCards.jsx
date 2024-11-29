@@ -1,7 +1,6 @@
-import { useEffect, useState } from "react";
 import HomeProductCard from "../HomeProductCard/HomeProductCard";
 
-const HomeProductCards = ({ products, activeCategory, handleCategoryBtn }) => {
+const HomeProductCards = ({ products, activeCategory }) => {
   const filteredProducts = activeCategory
     ? products.filter((product) => product.category === activeCategory)
     : products;

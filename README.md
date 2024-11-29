@@ -2,7 +2,7 @@
 
 This is a React-based **Shopping Cart Application** that allows users to browse products, add them to a cart, manage their wishlist, and sort items by price. The application leverages **localStorage** for persisting data, making it lightweight and efficient for small-scale e-commerce functionalities.
 
-[Live Demo](https://techtor.netlify.app/) <!-- Replace with your live demo link -->
+[Live Demo](https://techtor.netlify.app/)
 
 ---
 

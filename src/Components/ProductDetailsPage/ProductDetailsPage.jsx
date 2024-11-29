@@ -1,11 +1,10 @@
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
-import ProductDetails from "../ProductDetails/ProductDetails";
 import NavBar from "../NavBar/NavBar";
 import ProductDetailsBanner from "./../ProductDetailsBanner/ProductDetailsBanner";
 
 const ProductDetailsPage = () => {
-  const { productId } = useParams(); // Fetch productId from the URL
+  const { productId } = useParams();
   const [product, setProduct] = useState({});
 
   useEffect(() => {

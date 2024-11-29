@@ -1,9 +1,10 @@
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { FaRegHeart } from "react-icons/fa";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 const NavBar = () => {
-  // Navigation links with active class handling
+  const navigate = useNavigate();
+
   const navigation = (
     <>
       <li>
@@ -37,7 +38,6 @@ const NavBar = () => {
     <>
       <nav className="max-w-[1280px] mx-auto px-5">
         <div className="navbar">
-          {/* Mobile Menu */}
           <div className="navbar-start">
             <div className="dropdown">
               <div
@@ -70,19 +70,23 @@ const NavBar = () => {
             <a className="btn btn-ghost md:text-xl">TechTor</a>
           </div>
 
-          {/* Desktop Menu */}
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">{navigation}</ul>
           </div>
 
-          {/* Icons */}
           <div className="navbar-end">
-            <a className="btn bg-white rounded-full text-black font-bold hover:text-white mr-2 border-gray-400">
+            <button
+              onClick={() => navigate("/dashboard")}
+              className="btn bg-white rounded-full text-black font-bold hover:text-white mr-2 border-gray-400"
+            >
               <AiOutlineShoppingCart />
-            </a>
-            <a className="btn bg-white rounded-full text-black font-bold hover:text-white border-gray-400">
+            </button>
+            <button
+              onClick={() => navigate("/dashboard/wishlist")}
+              className="btn bg-white rounded-full text-black font-bold hover:text-white border-gray-400"
+            >
               <FaRegHeart />
-            </a>
+            </button>
           </div>
         </div>
       </nav>

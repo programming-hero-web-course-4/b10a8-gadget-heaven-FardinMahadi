@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { CiCircleRemove } from "react-icons/ci";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { HiOutlineAdjustments } from "react-icons/hi";
 
 const Cart = () => {
   const [cartItems, setCartItems] = useState([]);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const storedCart = JSON.parse(localStorage.getItem("cart")) || [];
@@ -29,6 +31,17 @@ const Cart = () => {
     setCartItems(sortedItems);
   };
 
+  const handlePurchase = () => {
+    setIsModalOpen(true);
+    localStorage.setItem("cart", JSON.stringify([]));
+    setCartItems([]);
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+    navigate("/");
+  };
+
   return (
     <div className="p-5 max-w-4xl mx-auto">
       <div className="flex justify-between items-center py-5">
@@ -45,11 +58,15 @@ const Cart = () => {
             <span>Sort by Price</span>
             <HiOutlineAdjustments />
           </button>
-          <div className="text-white bg-violet-500 px-4 py-2 rounded-full border-2 border-transparent">
+          <div
+            onClick={handlePurchase}
+            className="text-white bg-violet-500 px-4 py-2 rounded-full border-2 border-transparent cursor-pointer"
+          >
             Purchase
           </div>
         </div>
       </div>
+
       {cartItems.length === 0 ? (
         <div className="text-center mt-10">
           <p className="text-gray-500 mb-5">Your cart is empty.</p>
@@ -89,6 +106,34 @@ const Cart = () => {
               </button>
             </div>
           ))}
+        </div>
+      )}
+
+      {/* Modal */}
+      {isModalOpen && (
+        <div
+          className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50"
+          onClick={handleCloseModal}
+        >
+          <div
+            className="bg-white p-8 rounded-lg shadow-lg max-w-lg w-full"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <h2 className="text-2xl font-bold text-center text-green-600">
+              Congratulations!
+            </h2>
+            <p className="text-center text-lg mt-4">
+              Your purchase has been successfully completed!
+            </p>
+            <div className="mt-6 text-center">
+              <button
+                onClick={handleCloseModal}
+                className="bg-violet-500 text-white py-2 px-6 rounded-full hover:bg-violet-700"
+              >
+                Close
+              </button>
+            </div>
+          </div>
         </div>
       )}
     </div>

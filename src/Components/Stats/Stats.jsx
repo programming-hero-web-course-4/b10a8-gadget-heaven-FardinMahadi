@@ -1,12 +1,13 @@
 import NavBar from "../NavBar/NavBar";
+import StatsBanner from "../StatsBanner/StatsBanner";
+import StatsChart from "../StatsChart/StatsChart";
 
 const Stats = () => {
-  // useDocumentTitle("TechTor 👻");
-
   return (
-    <div className="bg-white text-black">
+    <div className="bg-gray-100 text-black">
       <NavBar />
-      This is stats.
+      <StatsBanner />
+      <StatsChart />
     </div>
   );
 };
