@@ -43,5 +43,3 @@ This is a React-based **Shopping Cart Application** that allows users to browse 
 - **State Management**: React's `useState` and `useEffect` hooks
 - **Routing**: React Router
 - **Data Persistence**: LocalStorage
-
----
