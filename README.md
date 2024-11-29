@@ -45,18 +45,3 @@ This is a React-based **Shopping Cart Application** that allows users to browse 
 - **Data Persistence**: LocalStorage
 
 ---
-
-## **Installation and Setup**
-
-### **Prerequisites**
-
-1. Node.js and npm installed on your machine.
-2. A code editor (e.g., VS Code).
-
-### **Steps to Run the Project**
-
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/your-username/shopping-cart-app.git
-   cd shopping-cart-app
-   ```
