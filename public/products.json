@@ -193,67 +193,71 @@
   },
   {
     "product_id": "13",
-    "product_title": "Samsung Galaxy Watch 6",
-    "product_image": "https://i.ibb.co.com/JFzLY6C/Galaxy-Watch6-Graphite-6125.jpg",
+    "product_title": "Garmin Venu 3",
+    "product_image": "https://res.garmin.com/en/products/010-02784-01/v/cf-lg.jpg",
     "category": "Smart watches",
-    "price": 299.99,
-    "description": "A stylish and powerful smartwatch with advanced health monitoring features.",
+    "price": 399.99,
+    "description": "A premium smartwatch with advanced health and fitness tracking features.",
     "specification": [
-      "1.5-inch AMOLED display",
-      "Heart rate monitoring",
-      "GPS and fitness tracking",
+      "1.4-inch AMOLED display",
+      "Pulse Ox and body battery monitoring",
+      "Music storage and streaming",
+      "GPS and multi-sport tracking",
       "Water-resistant up to 50m"
     ],
     "availability": "In Stock",
-    "rating": 4.7
+    "rating": 4.9
   },
   {
     "product_id": "14",
-    "product_title": "Anker PowerPort III Charger",
-    "product_image": "https://anker.com.bd/wp-content/uploads/2023/05/Deximpo-ANker-Bangladesh-Anker-PowerPort-III-20W-Cube-White-US-Plug.jpg",
+    "product_title": "Belkin BoostCharge Pro 2-in-1 Wireless Charger Stand",
+    "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/Black---Belkin-Boost-Charge-Pro-2-in-1-Wireless-Charger-Stand-With-Magsafe-15W-(6)-9273.jpg",
     "category": "Chargers",
-    "price": 29.99,
-    "description": "A compact and fast USB-C charger compatible with multiple devices.",
-    "specification": [
-      "45W fast charging",
-      "USB-C Power Delivery",
-      "Compact design",
-      "Universal compatibility"
-    ],
-    "availability": "In Stock",
-    "rating": 4.5
-  },
-  {
-    "product_id": "15",
-    "product_title": "Xiaomi Power Bank 20,000mAh",
-    "product_image": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1645514982.69762476!400x400!85.png",
-    "category": "Power bank",
-    "price": 39.99,
-    "description": "A high-capacity power bank with fast charging support for all your devices.",
-    "specification": [
-      "20,000mAh capacity",
-      "Dual USB output",
-      "18W fast charging",
-      "Lightweight design"
-    ],
-    "availability": "In Stock",
-    "rating": 4.6
-  },
-  {
-    "product_id": "16",
-    "product_title": "Logitech MX Master 3S",
-    "product_image": "https://www.startech.com.bd/image/cache/catalog/mouse/logitech/mx-master-3s/logitech-mx-master-3s-01-500x500.jpg",
-    "category": "Mouse",
     "price": 99.99,
-    "description": "An advanced wireless mouse designed for productivity and precision.",
+    "description": "A premium wireless charger that supports fast charging for iPhones and AirPods simultaneously.",
     "specification": [
-      "Ergonomic design",
-      "Ultra-fast scrolling",
-      "Customizable buttons",
-      "Works on any surface"
+      "15W MagSafe wireless charging for iPhones",
+      "5W Qi wireless charging for AirPods",
+      "Magnetic alignment for MagSafe devices",
+      "Durable aluminum and glass build",
+      "LED light indicator for charging status"
     ],
     "availability": "In Stock",
     "rating": 4.8
+  },
+  {
+    "product_id": "15",
+    "product_title": "Anker PowerCore III Elite 26,800mAh",
+    "product_image": "https://m.media-amazon.com/images/I/61HWv8xVwHL._AC_SL1500_.jpg",
+    "category": "Power bank",
+    "price": 89.99,
+    "description": "A high-capacity power bank with ultra-fast charging and universal compatibility.",
+    "specification": [
+      "26,800mAh capacity",
+      "Dual USB-C ports with 60W Power Delivery",
+      "Supports charging laptops, phones, and tablets",
+      "Lightweight and portable design",
+      "Includes a 65W wall charger and USB-C cable"
+    ],
+    "availability": "In Stock",
+    "rating": 4.9
+  },
+  {
+    "product_id": "16",
+    "product_title": "Razer Basilisk V3 Pro",
+    "product_image": "https://www.ultratech.com.bd/image/cache/catalog/mouse/razer/razer-basilisk-v3/razer-basilisk-v3-wired-ergonomic-gaming-mouse-500x500.jpg",
+    "category": "Mouse",
+    "price": 159.99,
+    "description": "A high-performance wireless gaming mouse with advanced customization and precision.",
+    "specification": [
+      "Focus+ 26K DPI Optical Sensor",
+      "11 customizable buttons",
+      "HyperScroll Tilt Wheel",
+      "Chroma RGB Lighting",
+      "Wireless and wired connectivity"
+    ],
+    "availability": "In Stock",
+    "rating": 4.9
   },
   {
     "product_id": "17",
@@ -289,22 +293,6 @@
   },
   {
     "product_id": "19",
-    "product_title": "Fitbit Charge 6",
-    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE8x2m-Qm2_vUZuRZ8vGuIRRmveGhimyCO4w&s",
-    "category": "Fitness",
-    "price": 149.99,
-    "description": "A fitness tracker with advanced health and activity monitoring features.",
-    "specification": [
-      "Heart rate tracking",
-      "Sleep monitoring",
-      "GPS",
-      "10-day battery life"
-    ],
-    "availability": "In Stock",
-    "rating": 4.6
-  },
-  {
-    "product_id": "20",
     "product_title": "HP Spectre x360 14",
     "product_image": "https://www.custommacbd.com/cdn/shop/files/Hp-Spectre-X360-i7-Custom-Mac-BD.png?v=1720507453",
     "category": "Computers",
@@ -321,7 +309,7 @@
     "rating": 4.7
   },
   {
-    "product_id": "21",
+    "product_id": "20",
     "product_title": "Lenovo ThinkPad X1 Carbon Gen 10",
     "product_image": "https://p3-ofp.static.pub/ShareResource/na/products/thinkpad/400x300/lenovo-thinkpad-t16-black-01.png",
     "category": "Computers",
@@ -338,7 +326,7 @@
     "rating": 4.9
   },
   {
-    "product_id": "22",
+    "product_id": "21",
     "product_title": "Apple MacBook Air M2",
     "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4a4B4zdQy3M0jQ6m2RtqFSmXRu8vCWCgt3g&s",
     "category": "Computers",

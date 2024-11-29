@@ -11,6 +11,7 @@ const HomeProductCard = ({ product }) => {
       >
         View Details
       </button>
+      <p>{product_id}</p>
     </div>
   );
 };

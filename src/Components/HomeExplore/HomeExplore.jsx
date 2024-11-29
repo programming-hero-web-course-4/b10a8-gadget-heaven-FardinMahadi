@@ -4,6 +4,7 @@ import SortByCategory from "../SortByCategorys/SortByCategorys";
 
 const HomeExplore = () => {
   const [products, setProducts] = useState([]);
+  const [activeCategory, setActiveCategory] = useState(null);
 
   useEffect(() => {
     fetch("/products.json")
@@ -14,15 +15,33 @@ const HomeExplore = () => {
       .catch((error) => console.error("Error fetching products:", error));
   }, []);
 
+  const handleCategoryBtn = (category) => {
+    setActiveCategory(category);
+    console.log(category);
+  };
+
   return (
-    <div className="grid grid-cols-4 gap-5 p-10">
-      <div>
-        <SortByCategory products={products} />
+    <>
+      <h1 className="text-center text-black font-bold text-3xl">
+        Explore Cutting-Edge Gadgets
+      </h1>
+      <div className="grid grid-cols-4 gap-5 p-10">
+        <div>
+          <SortByCategory
+            products={products}
+            activeCategory={activeCategory}
+            handleCategoryBtn={handleCategoryBtn}
+          />
+        </div>
+        <div className="col-span-3 w-full">
+          <HomeProductCards
+            products={products}
+            activeCategory={activeCategory}
+            handleCategoryBtn={handleCategoryBtn}
+          />
+        </div>
       </div>
-      <div className="col-span-3 w-full">
-        <HomeProductCards products={products} />
-      </div>
-    </div>
+    </>
   );
 };
 

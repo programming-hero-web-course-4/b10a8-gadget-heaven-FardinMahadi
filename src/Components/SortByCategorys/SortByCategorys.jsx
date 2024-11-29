@@ -2,9 +2,8 @@ import { useState, useEffect } from "react";
 import SortCategoryItem from "../SortCategoryItem/SortCategoryItem";
 import "../../assets/style.css";
 
-const SortByCategorys = ({ products }) => {
+const SortByCategorys = ({ products, activeCategory, handleCategoryBtn }) => {
   const [categories, setCategories] = useState([]);
-  const [activeCategory, setActiveCategory] = useState(null);
 
   useEffect(() => {
     if (products && products.length > 0) {
@@ -14,10 +13,6 @@ const SortByCategorys = ({ products }) => {
       setCategories(uniqueCategories);
     }
   }, [products]);
-
-  const handleCategoryBtn = (category) => {
-    setActiveCategory(category);
-  };
 
   return (
     <div className="bg-gray-100 rounded-xl p-6 flex flex-col">
