@@ -3,7 +3,7 @@ const Footer = () => {
     <footer className="text-black bg-white">
       <div className="container mx-auto flex flex-col justify-center items-center py-10 gap-10">
         <div className="flex flex-col justify-center items-center border-b sm:w-2/3 pb-3">
-          <h2 className="text-3xl font-bold">Gadget Heaven</h2>
+          <h2 className="text-3xl font-bold">TechTor</h2>
           <p>Leading the way in cutting-edge technology and innovation.</p>
         </div>
         <div className="md:w-2/4 flex justify-between text-center">

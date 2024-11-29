@@ -6,8 +6,10 @@ import Root from "./Components/Root/Root";
 import ErrorPage from "./Components/ErrorPage/ErrorPage";
 import Home from "./Components/Home/Home";
 import Dashboard from "./Components/Dashboard/Dashboard";
-import ProductDetails from "./Components/ProductDetails/ProductDetails";
+import ProductDetails from "./Components/ProductDetailsPage/ProductDetailsPage";
 import Stats from "./Components/Stats/Stats";
+import Cart from "./Components/Cart/Cart";
+import Wishlist from "./Components/Wishlist/Wishlist";
 
 const router = createBrowserRouter([
   {
@@ -18,7 +20,6 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
-        loader: () => fetch("./assets/products.json"),
       },
       {
         path: "/statistics",
@@ -27,9 +28,19 @@ const router = createBrowserRouter([
       {
         path: "/dashboard",
         element: <Dashboard />,
+        children: [
+          {
+            path: "/dashboard",
+            element: <Cart />,
+          },
+          {
+            path: "/dashboard/wishlist",
+            element: <Wishlist />,
+          },
+        ],
       },
       {
-        path: "/productdetails",
+        path: "/productdetails/:productId",
         element: <ProductDetails />,
       },
     ],

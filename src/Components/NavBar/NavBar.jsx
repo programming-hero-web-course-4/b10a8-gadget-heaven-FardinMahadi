@@ -3,16 +3,32 @@ import { FaRegHeart } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
+  // Navigation links with active class handling
   const navigation = (
     <>
-      <li className="text-red">
-        <NavLink to="/">Home</NavLink>
+      <li>
+        <NavLink
+          to="/"
+          className={({ isActive }) => (isActive ? "underline font-bold" : "")}
+        >
+          Home
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/statistics">Statistics</NavLink>
+        <NavLink
+          to="/statistics"
+          className={({ isActive }) => (isActive ? "underline font-bold" : "")}
+        >
+          Statistics
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/dashboard">Dashboards</NavLink>
+        <NavLink
+          to="/dashboard"
+          className={({ isActive }) => (isActive ? "underline font-bold" : "")}
+        >
+          Dashboards
+        </NavLink>
       </li>
     </>
   );
@@ -21,6 +37,7 @@ const NavBar = () => {
     <>
       <nav className="max-w-[1280px] mx-auto px-5">
         <div className="navbar">
+          {/* Mobile Menu */}
           <div className="navbar-start">
             <div className="dropdown">
               <div
@@ -50,11 +67,15 @@ const NavBar = () => {
                 {navigation}
               </ul>
             </div>
-            <a className="btn btn-ghost md:text-xl">Gadget Heaven</a>
+            <a className="btn btn-ghost md:text-xl">TechTor</a>
           </div>
+
+          {/* Desktop Menu */}
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">{navigation}</ul>
           </div>
+
+          {/* Icons */}
           <div className="navbar-end">
             <a className="btn bg-white rounded-full text-black font-bold hover:text-white mr-2 border-gray-400">
               <AiOutlineShoppingCart />

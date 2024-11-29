@@ -1,10 +1,13 @@
+import { Outlet } from "react-router-dom";
+import DashboardBanner from "../DashboardBanner/DashboardBanner";
 import NavBar from "../NavBar/NavBar";
 
 const Dashboard = () => {
   return (
-    <div className="bg-white text-black">
+    <div className="bg-gray-100 text-black">
       <NavBar />
-      <h2 className="text-5xl">Disum disum dashing board</h2>
+      <DashboardBanner />
+      <Outlet />
     </div>
   );
 };
