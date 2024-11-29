@@ -66,5 +66,4 @@ This is a React-based **Shopping Cart Application** that allows users to browse 
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/programming-hero-web-course-4/b10a8-gadget-heaven-FardinMahadi.git
-   cd shopping-cart-app
    ```
